@@ -306,3 +306,94 @@ only screen and (min-device-pixel-ratio : 1.5) {
 {
 	background-color: rgba(50,50,50,0.7);
 }
+
+.donation-header
+{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 80px;
+	margin: 0px;
+	padding: 10px;
+	background-color: #FF4136;
+	z-index: 999;
+}
+
+.donation-header h4
+{
+	margin: 0px;
+	margin-left: 50px;
+}
+
+.donation-warning
+{
+	font-size: 150pt;
+	position: absolute;
+	color: white;
+	padding-top: 55px;
+
+	-webkit-animation: donationAttentionKF 0.8s both;
+	-webkit-animation-delay: 3s;
+	animation: donationAttentionKF 0.8s both;
+	animation-delay: 3s;
+}
+
+
+@-webkit-keyframes donationAttentionKF {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes donationAttentionKF {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
