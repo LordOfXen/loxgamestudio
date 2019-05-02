@@ -322,12 +322,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .donation-header h4
 {
 	margin: 0px;
+		font-size: 14pt;
 	margin-left: 50px;
 }
 
 .donation-warning
 {
-	font-size: 150pt;
+	font-size: 130pt;
 	position: absolute;
 	color: white;
 	padding-top: 55px;
