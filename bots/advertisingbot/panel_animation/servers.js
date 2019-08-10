@@ -1,6 +1,5 @@
 var discordServers = [];
 
-discordServers.push({ name: 'Notarged 2', image: 'notarged2.png', verified: true, hiddenbackground: true });
 discordServers.push({ name: 'DarkenedSouls', image: 'servers/509297478869319683.png', verified: true, hiddenbackground: true });
 discordServers.push({ name: "Coco's Roleplay Server", image: 'servers/417225375349997578.png', verified: false, hiddenbackground: true });
 discordServers.push({ name: 'Lox Game Studios', image: 'lgs.png', verified: true, hiddenbackground: true });
